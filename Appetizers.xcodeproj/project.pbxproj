@@ -23,6 +23,9 @@
 		5AC7400A2C440E9F00AC6173 /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC740092C440E9F00AC6173 /* AppetizerListCell.swift */; };
 		5AC7400C2C44106400AC6173 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC7400B2C44106400AC6173 /* NetworkManager.swift */; };
 		5AC7400E2C44124E00AC6173 /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC7400D2C44124E00AC6173 /* APError.swift */; };
+		5AE0CB282CA28A100066B382 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE0CB272CA28A100066B382 /* LoadingView.swift */; };
+		5AE0CB2A2CA28AF60066B382 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE0CB292CA28AF60066B382 /* Color+Ext.swift */; };
+		5AE0CB2C2CA293EC0066B382 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE0CB2B2CA293EC0066B382 /* RemoteImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +65,9 @@
 		5AC740092C440E9F00AC6173 /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 		5AC7400B2C44106400AC6173 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		5AC7400D2C44124E00AC6173 /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
+		5AE0CB272CA28A100066B382 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		5AE0CB292CA28AF60066B382 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		5AE0CB2B2CA293EC0066B382 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +129,9 @@
 				5AC7400D2C44124E00AC6173 /* APError.swift */,
 				5A397E182C465FF6002EB80A /* AppetizerListViewModel.swift */,
 				5A397E1A2C466314002EB80A /* Alert.swift */,
+				5AE0CB272CA28A100066B382 /* LoadingView.swift */,
+				5AE0CB292CA28AF60066B382 /* Color+Ext.swift */,
+				5AE0CB2B2CA293EC0066B382 /* RemoteImage.swift */,
 				5AA523362C43F79B007736D0 /* Assets.xcassets */,
 				5AA523382C43F79B007736D0 /* Preview Content */,
 			);
@@ -288,9 +297,12 @@
 				5AC7400E2C44124E00AC6173 /* APError.swift in Sources */,
 				5AC7400A2C440E9F00AC6173 /* AppetizerListCell.swift in Sources */,
 				5A397E192C465FF7002EB80A /* AppetizerListViewModel.swift in Sources */,
+				5AE0CB2A2CA28AF60066B382 /* Color+Ext.swift in Sources */,
 				5AA523602C43F857007736D0 /* AccountView.swift in Sources */,
+				5AE0CB282CA28A100066B382 /* LoadingView.swift in Sources */,
 				5AA523352C43F79A007736D0 /* AppetizerTabView.swift in Sources */,
 				5AC7400C2C44106400AC6173 /* NetworkManager.swift in Sources */,
+				5AE0CB2C2CA293EC0066B382 /* RemoteImage.swift in Sources */,
 				5AA523332C43F79A007736D0 /* AppetizersApp.swift in Sources */,
 				5A397E1B2C466314002EB80A /* Alert.swift in Sources */,
 				5AA5235D2C43F837007736D0 /* AppetizersListView.swift in Sources */,
